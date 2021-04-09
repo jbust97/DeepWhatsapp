@@ -18,7 +18,7 @@ export default function ChatGenerator({ trainData }) {
     let lastUser = null;
     let words;
     // let count = 0;
-    chat.forEach((line) => {  
+    chat.forEach((line) => {
       // eslint-disable-next-line prefer-destructuring
       if (line.indexOf(':') !== -1) {
         // eslint-disable-next-line prefer-destructuring
