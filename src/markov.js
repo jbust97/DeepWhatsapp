@@ -57,7 +57,7 @@ export function generateChat(markov, markovUser, numberOfMessages) {
     let user = users[Math.floor(Math.random() * users.length)];
     // eslint-disable-next-line no-plusplus
     for (let i = 0; i < numberOfMessages; i++) {
-      // eslint-disable-next-line prefer-template
+      // eslint-disable-next-line    prefer-template
       let message = user + ':';
       let word = startToken;
       while (word !== endToken) {
